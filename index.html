@@ -4,19 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Three Card Monte</title>
 </head>
-<body style="background-color: black;">
-    <h1 style="text-align: center; background-color: black; color: yellow;">
-        Tic-Tac-Toe
-    </h1>
-
-    <div class="grid">
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
+<body style="background-color: black;" onload="over()">
+    <div class="h1">
+        <h1 onclick="replaceWindow()">Three Card Monte</h1>
     </div>
-
+    <div class="h2">
+        <h2>Find the Queen
+            <a style="color: aquamarine; text-decoration: none;" href="pages/phase1.html" onclick="updatePhaseVar()"> 
+                of
+            </a>
+             Hearts:-
+        </h2>
+    </div>
+    <div class="grid">
+        <div class="img">
+            <button id="joker3Btn" onclick="joker3Handler()">
+                <img id="joker3Img" src="images/0B.jpeg" height="300px">
+            </button>
+        </div>
+        <div class="img">
+            <button id="joker1Btn" onclick="joker1Handler()">
+                <img id="joker1Img" src="images/0B.jpeg" height="300px">
+            </button>
+        </div>
+        <div class="img">
+            <button id="joker2Btn" onclick="joker2Handler()">
+                <img id="joker2Img" src="images/0B.jpeg" height="300px">
+            </button>
+        </div>
+    </div>
+    <div class="direction">
+        <a id="left" href="pages/questions.html" style="text-decoration:none; float:left; color:black" onmouseover="changeColor(id)">↙ Into the unknown</a>
+    </div>
+    <div class="direction">
+        <a id="right" href="pages/unknown.html" style="text-decoration:none; float:right; color:black" onmouseover="changeColor(id)">Into the unknown ⤴</a>
+    </div>
 </body>
+<script src="js/joker.js"></script>
 </html>
