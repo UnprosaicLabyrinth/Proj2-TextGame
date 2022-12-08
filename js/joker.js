@@ -85,10 +85,11 @@ function updatePhaseVar() {
 }
 
 function over() {
+    console.log("hello from over")
     if (sessionStorage.getItem("loss") == "true") {
-        window.location.replace(loss.html)
+        window.location.replace("pages/loss.html")
     }
     if (sessionStorage.getItem("win") == "true") {
-        window.location.replace(win.html)
+        window.location.replace("pages/win.html")
     }
 }
