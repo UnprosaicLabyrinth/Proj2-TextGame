@@ -13,4 +13,4 @@ Key1 = 1 + 1 + 1 = 3
 8) Click on the text "Phase 3".
 9) Key3 = 21 / 3 = 7. So click on "G". If you click on an incorrect letter thrice, you will lose (redirected to the loss screen).
 10) The 3rd link from the top on the right will direct you to the Queen of Hearts. Clicking on an incorrect link thrice will make you lose.
-11) Click on the Queen of Hearts to win the game (you will be redirected to the win screen).
+11) Click on the Queen of Hearts to win the game (redirected to the win screen).
