@@ -5,10 +5,10 @@ Here is the solution:-
 1) Click the "of" in "Find the Queen of Hearts:-" and you will be directed to Phase 1.
 2) Return to the home page and retrieve values from the three cards by repeatedly clicking on them until a value is seen. (Value = Card value)
 Key1 = 1 + 1 + 1 = 3
-3) Hover the mouse over the bottom left of the screen and a link saying "Into the unknown" should become visible which when clicked will direct you to a page with three question mark buttons.
+3) Hover the mouse over the bottom left part of the screen and a link saying "Into the unknown" should become visible which when clicked will direct you to a page with three question mark buttons.
 4) Click on the first question mark and the "here" in "She is not here" is a hyperlink to Phase 2.
 5) The answer to Phase 2 is 21 (base 7 arithmetic) => Key2 = 21
-6) Go back to home page and hover mouse over bottom right of the screen. Another link saying "Into the unknown" should become visible.
+6) Go back to home page and hover mouse over bottom right part of the screen. Another link saying "Into the unknown" should become visible.
 7) Click on it and the 6th card in the 3rd row is the link to Phase 3.
 8) Click on the text "Phase 3".
 9) Key 3 = 21 / 3 = 7. So click on "G". If you click on incorrect letters thrice, you will lose (redirected to the loss screen).
